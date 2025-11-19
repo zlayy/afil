@@ -25,7 +25,7 @@ This repository contains the implementation of our proposed AFIL model using the
 🚀 Quick Start
 1. **Clone the repository**
 
-	git clone https://github.com/your-username/your-repo-name.git
+	git clone https://github.com/zlayy/afil
 	cd AFIL_main
 
 2. **Install dependencies**
