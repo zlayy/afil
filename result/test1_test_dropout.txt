@@ -1,0 +1,64 @@
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.1, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2907    0.4024    0.4024    1.3328
+20.0000    0.1992    0.3996    0.3996    1.3058
+30.0000    0.1474    0.3975    0.3975    1.2834
+40.0000    0.1229    0.3975    0.3975    1.2850
+50.0000    0.1035    0.4013    0.4013    1.2766
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.2, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2944    0.4299    0.4299    1.3890
+20.0000    0.1995    0.3982    0.3982    1.3002
+30.0000    0.1464    0.3983    0.3983    1.2877
+40.0000    0.1222    0.3997    0.3997    1.2862
+50.0000    0.1045    0.3986    0.3986    1.2813
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.3, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2908    0.4076    0.4076    1.3422
+20.0000    0.2001    0.4001    0.4001    1.3044
+30.0000    0.1516    0.4034    0.4034    1.2910
+40.0000    0.1215    0.4047    0.4047    1.2940
+50.0000    0.1054    0.4029    0.4029    1.2915
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.4, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2973    0.4066    0.4066    1.3297
+20.0000    0.1995    0.4047    0.4047    1.3244
+30.0000    0.1499    0.4067    0.4067    1.2943
+40.0000    0.1256    0.4006    0.4006    1.2906
+50.0000    0.1093    0.4025    0.4025    1.2852
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.5, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2945    0.4203    0.4203    1.3603
+20.0000    0.2051    0.4109    0.4109    1.3070
+30.0000    0.1544    0.3962    0.3962    1.2922
+40.0000    0.1318    0.4038    0.4038    1.2863
+50.0000    0.1140    0.4008    0.4008    1.2838
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.6, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2994    0.4222    0.4222    1.3592
+20.0000    0.2092    0.3987    0.3987    1.3047
+30.0000    0.1617    0.4002    0.4002    1.2879
+40.0000    0.1383    0.4046    0.4046    1.2888
+50.0000    0.1202    0.4041    0.4041    1.2848
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.7, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.3073    0.4086    0.4086    1.3362
+20.0000    0.2150    0.4008    0.4008    1.3157
+30.0000    0.1722    0.3994    0.3994    1.2994
+40.0000    0.1462    0.4045    0.4045    1.2936
+50.0000    0.1271    0.3973    0.3973    1.2931
+Namespace(batch_size=128, cuda=3, d_ff=48, d_k=128, dropout=0.8, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.025, n_head=6, operation='test_dropout', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.3148    0.4166    0.4166    1.3355
+20.0000    0.2294    0.4046    0.4046    1.3142
+30.0000    0.1856    0.4034    0.4034    1.2926
+40.0000    0.1592    0.4058    0.4058    1.2928
+50.0000    0.1416    0.4014    0.4014    1.2827

@@ -1,0 +1,8 @@
+Namespace(batch_size=128, cuda=1, d_ff=48, d_k=128, dropout=0.0, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.05, n_head=6, operation='result', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2943    0.3658    0.3658    1.2817
+20.0000    0.2081    0.3560    0.3560    1.2433
+30.0000    0.1520    0.3536    0.3536    1.2277
+40.0000    0.1255    0.3606    0.3606    1.2359
+50.0000    0.1027    0.3599    0.3599    1.2273

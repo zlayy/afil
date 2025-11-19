@@ -1,0 +1,16 @@
+Namespace(batch_size=128, cuda=1, d_ff=48, d_k=128, dropout=0.0, embed_dim=128, hidden_units=[1024, 1024], learning_rate=0.001, loss_mode=1, md=0.1, n_head=6, operation='测试_new', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2645    0.3244    0.3244    1.2073
+20.0000    0.1831    0.3203    0.3203    1.1686
+30.0000    0.1402    0.3214    0.3214    1.1496
+40.0000    0.1137    0.3197    0.3197    1.1430
+50.0000    0.0952    0.3203    0.3203    1.1424
+Namespace(batch_size=128, cuda=1, d_ff=48, d_k=128, dropout=0.0, embed_dim=128, hidden_units=[1024, 1024, 1024], learning_rate=0.001, loss_mode=1, md=0.1, n_head=6, operation='测试_new', seed=0, type='rt', weight_decay=1e-06)
+============ Detailed results ============
+| epoch | train_loss | test_loss | mae | rmse |
+10.0000    0.2741    0.3242    0.3242    1.2075
+20.0000    0.1973    0.3184    0.3184    1.1669
+30.0000    0.1544    0.3187    0.3187    1.1602
+40.0000    0.1259    0.3224    0.3224    1.1473
+50.0000    0.1072    0.3185    0.3185    1.1433
